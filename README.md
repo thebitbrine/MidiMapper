@@ -1,2 +1,2 @@
 # MidiMapper
-### Map MIDI notes to keyboard keys
+_Map MIDI notes to keyboard keys_
