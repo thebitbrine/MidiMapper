@@ -44,8 +44,8 @@ namespace MidiMapper
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,7 +124,7 @@ namespace MidiMapper
             // 
             this.labelControl2.Location = new System.Drawing.Point(12, 571);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(78, 16);
+            this.labelControl2.Size = new System.Drawing.Size(226, 25);
             this.labelControl2.TabIndex = 4;
             this.labelControl2.Text = "Selected Key:";
             // 
@@ -178,17 +178,6 @@ namespace MidiMapper
             this.panel1.Size = new System.Drawing.Size(345, 343);
             this.panel1.TabIndex = 9;
             // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(345, 333);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Simulating Keystroke";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            // 
             // label7
             // 
             this.label7.AutoEllipsis = true;
@@ -201,6 +190,17 @@ namespace MidiMapper
             this.label7.Text = "-";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label7.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(345, 333);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Simulating Keystroke";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // Form1
             // 
